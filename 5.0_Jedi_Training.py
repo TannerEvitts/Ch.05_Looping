@@ -1,3 +1,4 @@
+import random
   #Sign your name: Tanner Evitts
 
 '''
@@ -39,7 +40,8 @@
   4. Write a program that prints a random integer from 1 to 10 (inclusive).
 '''
 
-
+# randomizer = random.randrange(10)
+# print(randomizer)
 
 
 
@@ -54,3 +56,10 @@
      if statements.
       
 '''
+i = 0
+total = 0
+while i<7:
+    num = int(input("Give me a number, any number: "))
+    total += num
+    i += 1
+print("your total is",total)

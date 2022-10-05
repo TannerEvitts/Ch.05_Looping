@@ -6,6 +6,8 @@ COIN TOSS PROGRAM
 3.) Add a loop so that the program does this 50 times.
 4.) Create a running total for the number of heads and the number of tails and print the total at the end.
 '''
+import random
+for i in range(50):
 
 
 
