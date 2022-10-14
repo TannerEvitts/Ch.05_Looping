@@ -6,7 +6,11 @@ The pseudo-code for how to code this game is in Chapter 5 of the Python Jedi boo
 
 '''
 nativesTraveledRandomizer = random.randrange(7,15)
-print("Instructions")
+print("You are stranded in a desert and the natives are not happy that you are there.")
+print("You must escape before getting caught by the natives or dying of thirst.")
+print("You are given a camel and a canteen with three drinks of water")
+print("If you get lucky you may find and oasis")
+print("Can you escape?")
 done = False
 dead = False
 camelDead = False
